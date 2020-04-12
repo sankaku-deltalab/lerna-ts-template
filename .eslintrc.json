@@ -17,5 +17,11 @@
         "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }],
         "prettier/prettier": "error"
     },
-    "ignorePatterns": ["/*.config.js"]
+    "ignorePatterns": ["/*.config.js"],
+    "overrides": [{
+        "files": ["*.js"],
+        "rules": {
+          "@typescript-eslint/explicit-function-return-type": "off"
+        }
+    }]
 }
