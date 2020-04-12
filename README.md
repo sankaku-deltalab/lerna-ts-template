@@ -17,4 +17,4 @@
 - lint: `npm run lint`
 - test: `npm run test`
 - build js files: `npm run build`
-- publish packages: `npm run publish`
+- publish packages: `npm run pub`
