@@ -1,11 +1,11 @@
-# replacingpackagename
+# lerna-ts-template
 
 <!-- [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/ -->
 
 ## Setup
 
-- Replace `replacingpackagename` to your package name
 - Replace package.json repository.url to your repository path
+- Fix tsconfig.json paths
 - `npm install`
 - `npm run bootstrap`
 
