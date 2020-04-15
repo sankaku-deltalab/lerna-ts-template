@@ -11,9 +11,7 @@
 
 ## Usage
 
-- create new package
-  - `npm run create <package-name>`
-  - `npm run init-package <package-name>`
+- create new package: `npm run create <package-name>`
 - lint: `npm run lint`
 - test: `npm run test`
 - build js files: `npm run build`
