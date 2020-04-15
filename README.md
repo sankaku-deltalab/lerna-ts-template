@@ -15,5 +15,4 @@
 - lint: `npm run lint`
 - test: `npm run test`
 - build js files: `npm run bootstrap`
-- publish packages
-  - `npx lerna publish`
+- publish packages: `npx lerna publish`
