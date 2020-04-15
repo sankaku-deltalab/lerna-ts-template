@@ -10,7 +10,9 @@ const editPackageJson = (packageName) => {
     .set("main", "dist/index.js")
     .set("module", "dist/index.js")
     .set("types", "dist/index.d.ts")
-    .set("scripts.build", "tsc")
+    .set("scripts.prepare", "run-s build:clean build:tsc")
+    .set("scripts.prepare:clean", "rimraf dist/")
+    .set("scripts.prepare:tsc", "tsc")
     .save();
 };
 

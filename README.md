@@ -14,7 +14,6 @@
 - create new package: `npm run create <package-name>`
 - lint: `npm run lint`
 - test: `npm run test`
-- build js files: `npm run build`
+- build js files: `npm run bootstrap`
 - publish packages
-  - `npm run build`
   - `npx lerna publish`
