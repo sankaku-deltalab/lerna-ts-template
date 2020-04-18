@@ -1,6 +1,10 @@
 # lerna-ts-template
 
-<!-- [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/ -->
+<!-- Badges -->
+<!-- [![<this-package>](https://img.shields.io/npm/v/<this-package>.svg)](https://www.npmjs.com/package/<this-package>) -->
+<!-- ![pipeline](https://gitlab.com/<group>/<project>/badges/master/pipeline.svg) -->
+<!-- ![coverage](https://gitlab.com/<group>/<project>/badges/master/coverage.svg) -->
+<!-- [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/) -->
 
 ## Setup
 
