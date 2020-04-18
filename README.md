@@ -16,7 +16,9 @@
 ## Usage
 
 - create new package: `npm run create <package-name>`
+- add dependency: `npx lerna add <package-name> --scope=<scope>`
+  - @see: [@lerna/add](https://github.com/lerna/lerna/tree/master/commands/add#readme)
 - lint: `npm run lint`
 - test: `npm run test`
 - build js files: `npm run bootstrap`
-- publish packages: `npx lerna publish`
+- publish packages: `npm run publish-all`
